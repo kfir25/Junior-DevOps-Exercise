@@ -27,10 +27,11 @@ Good Luck :)
 
 
 Steps to execute the exercise
+
 in the terminal run
-docker-compose up --build
-it will build a flask app with MySQL DB
-you can see it on browser - localhost:5000
+-docker-compose up --build
+-it will build a flask app with MySQL DB
+-you can see it on browser - localhost:5000
 
 
 for question 2
