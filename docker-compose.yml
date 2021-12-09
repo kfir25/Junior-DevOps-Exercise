@@ -1,0 +1,33 @@
+version: "3.1"
+services:
+#flask app
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    depends_on:
+      - bdb
+    networks:
+      - mynetwork
+
+#mysql database
+  bdb:
+    image: mysql:8.0
+    ports:
+      - "3306"
+    volumes:
+      #- data:/var/lib/mysql/
+      #- ./db:/docker-db/
+      - ./db:/var/lib/mysql/
+    environment:
+      - "MYSQL_DATABASE=namelist"
+      - "MYSQL_ROOT_PASSWORD=root"
+    expose:
+      - "3306"   
+    networks:
+      - mynetwork
+
+# volumes:
+#   data:
+networks:
+  mynetwork:

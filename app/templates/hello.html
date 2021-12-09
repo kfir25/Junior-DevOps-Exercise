@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"></script>
+
+<div class="ui container">
+    <h1>What is your Username?</h1>
+    <div>
+        <form  method = "POST">
+         
+            <p>Username: <input type="text" name="name"/></p>
+            <p><input type="submit" value="submit" /></p>
+            
+   
+        <br>
+        <div id="successAlert" class="alert alert0success" role="alert" style="display:none;"></div>
+    </div>
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+{% endblock %}

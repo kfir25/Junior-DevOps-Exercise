@@ -1,0 +1,23 @@
+{"log":" * Serving Flask app 'app' (lazy loading)\n","stream":"stdout","time":"2021-11-08T19:45:43.32637057Z"}
+{"log":" * Environment: production\n","stream":"stdout","time":"2021-11-08T19:45:43.326401288Z"}
+{"log":"   WARNING: This is a development server. Do not use it in a production deployment.\n","stream":"stdout","time":"2021-11-08T19:45:43.326404213Z"}
+{"log":"   Use a production WSGI server instead.\n","stream":"stdout","time":"2021-11-08T19:45:43.326407579Z"}
+{"log":" * Debug mode: off\n","stream":"stdout","time":"2021-11-08T19:45:43.326409152Z"}
+{"log":" * Running on all addresses.\n","stream":"stderr","time":"2021-11-08T19:45:43.366481073Z"}
+{"log":"   WARNING: This is a development server. Do not use it in a production deployment.\n","stream":"stderr","time":"2021-11-08T19:45:43.366495861Z"}
+{"log":" * Running on http://172.23.0.3:5000/ (Press CTRL+C to quit)\n","stream":"stderr","time":"2021-11-08T19:45:43.366498596Z"}
+{"log":"172.23.0.1 - - [08/Nov/2021 19:45:48] \"\u001b[35m\u001b[1mGET /health HTTP/1.1\u001b[0m\" 500 -\n","stream":"stderr","time":"2021-11-08T19:45:48.502294392Z"}
+{"log":"172.23.0.1 - - [08/Nov/2021 19:45:49] \"\u001b[35m\u001b[1mGET /health HTTP/1.1\u001b[0m\" 500 -\n","stream":"stderr","time":"2021-11-08T19:45:49.355380929Z"}
+{"log":"172.23.0.1 - - [08/Nov/2021 19:45:49] \"\u001b[35m\u001b[1mGET /health HTTP/1.1\u001b[0m\" 500 -\n","stream":"stderr","time":"2021-11-08T19:45:49.809268409Z"}
+{"log":"172.23.0.1 - - [08/Nov/2021 19:45:50] \"GET /hello HTTP/1.1\" 200 -\n","stream":"stderr","time":"2021-11-08T19:45:50.730824258Z"}
+{"log":"172.23.0.1 - - [08/Nov/2021 19:45:50] \"GET /hello HTTP/1.1\" 200 -\n","stream":"stderr","time":"2021-11-08T19:45:50.796583402Z"}
+{"log":"172.23.0.1 - - [08/Nov/2021 19:45:51] \"GET /hello HTTP/1.1\" 200 -\n","stream":"stderr","time":"2021-11-08T19:45:51.152167954Z"}
+{"log":"172.23.0.1 - - [08/Nov/2021 19:45:51] \"GET /hello HTTP/1.1\" 200 -\n","stream":"stderr","time":"2021-11-08T19:45:51.560507221Z"}
+{"log":"172.23.0.1 - - [08/Nov/2021 19:45:52] \"POST /hello HTTP/1.1\" 200 -\n","stream":"stderr","time":"2021-11-08T19:45:52.486735324Z"}
+{"log":"172.23.0.1 - - [08/Nov/2021 19:45:57] \"\u001b[35m\u001b[1mGET /health HTTP/1.1\u001b[0m\" 500 -\n","stream":"stderr","time":"2021-11-08T19:45:57.015429728Z"}
+{"log":"172.23.0.1 - - [08/Nov/2021 20:18:40] \"GET /hello HTTP/1.1\" 200 -\n","stream":"stderr","time":"2021-11-08T20:18:40.725913023Z"}
+{"log":"172.23.0.1 - - [08/Nov/2021 20:18:44] \"GET / HTTP/1.1\" 200 -\n","stream":"stderr","time":"2021-11-08T20:18:44.913368812Z"}
+{"log":"172.23.0.1 - - [08/Nov/2021 20:18:47] \"GET /hello HTTP/1.1\" 200 -\n","stream":"stderr","time":"2021-11-08T20:18:47.02921325Z"}
+{"log":"172.23.0.1 - - [08/Nov/2021 20:18:49] \"POST /hello HTTP/1.1\" 200 -\n","stream":"stderr","time":"2021-11-08T20:18:49.634553372Z"}
+{"log":"172.23.0.1 - - [08/Nov/2021 20:18:53] \"POST /hello HTTP/1.1\" 200 -\n","stream":"stderr","time":"2021-11-08T20:18:53.132171087Z"}
+{"log":"172.23.0.1 - - [08/Nov/2021 20:18:54] \"POST /hello HTTP/1.1\" 200 -\n","stream":"stderr","time":"2021-11-08T20:18:54.969756009Z"}
