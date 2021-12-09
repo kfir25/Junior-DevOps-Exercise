@@ -25,24 +25,19 @@ Good Luck :)
 
 
 
-
-Steps to execute the exercise
-
-in the terminal run
--docker-compose up --build
--it will build a flask app with MySQL DB
--you can see it on browser - localhost:5000
-
-
-for question 2
-cd Build_CI\CD 
-docker-compose up --build
-that will build Jenkins, GitLab, and artifactory(if we want to publish)
-on browser - localhost:80 - upload the project to GitLab
-on browser - localhost:8080 to launch Jenkins
-follow the steps on the screen
-creat ssh key on GitLab and share it with Jenkins
-creat a pipeline job using the jenkinsfile from the GitLab project
-
-
-
+    • Steps to execute the exercise
+    • in the terminal run
+    • docker-compose up --build
+    • it will build a flask app with MySQL DB
+    • you can see it on browser - localhost:5000
+    • 
+    • 
+    • for question 2
+    • cd Build_CI\CD 
+    • docker-compose up --build
+    • that will build Jenkins, GitLab, and artifactory(if we want to publish)
+    • on browser - localhost:80 - upload the project to GitLab
+    • on browser - localhost:8080 to launch Jenkins
+    • follow the steps on the screen
+    • creat ssh key on GitLab and share it with Jenkins
+    • creat a pipeline job using the jenkinsfile from the GitLab project
